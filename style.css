@@ -352,3 +352,24 @@ a:focus {
 		stroke-width: var(--cursor-stroke-width);
 	}
 }
+button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #b02a6b;
+}
+
+#message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ff4081;
+}

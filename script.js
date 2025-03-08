@@ -6426,3 +6426,13 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   });
   var cursor = new _cursor.default(document.querySelector('.cursor'));
   },{"../cursor":"LMRJ","./grid":"toX6","../utils":"MgTz"}]},{},["C3Xv"], null)
+  function showMessage() {
+    const messages = [
+        "Chúc bạn ngày 8/3 thật vui vẻ và hạnh phúc!",
+        "Mỗi ngày luôn cười nhiều hơn khóc, vui nhiều hơn buồn nhé!",
+        "Chúc bạn đậu NV1 vào trường mình mong ước!",
+        "Mọi chuyện buồn phiền của cậu sẽ mau qua và đón nhận nhiều niềm vui hạnh phúc!"
+    ];
+    const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+    document.getElementById("message").innerText = randomMessage;
+}
